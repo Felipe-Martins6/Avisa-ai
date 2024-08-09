@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  font-family: "Inter";
+}
+
+body {
+  grid-template-areas: "profile timeline";
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.registro {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+aside {
+  display: flex;
+  grid-area: profile;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 50%;
+  height: 100vh;
+  margin-bottom: 10rem;
+
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #003b71;
+}
+
+.container {
+  grid-area: timeline;
+  background-color: #003b71;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.0212);
+}
+
+.registro {
+  margin-left: 5em;
+  padding: 10%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  margin-top: 2em;
+}
+
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.img-logo {
+  width: 25rem;
+  height: 30rem;
+}
+
+.title-login {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  background: #efefef;
+  border-radius: 15px;
+  
+  margin-bottom: 5px;
+}
+
+input:hover {
+  background-color: rgb(212, 212, 212);
+}
+
+button {
+  width: 280px;
+  height: 40px;
+  background: #efefef;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: rgb(212, 212, 212);
+}
+
+h5 {
+ 
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.qrcode{
+  margin-top: 15px;
+}
